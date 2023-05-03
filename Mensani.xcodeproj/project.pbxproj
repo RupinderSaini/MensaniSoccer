@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E4A95D2A028A7F005EB23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A95C2A028A7F005EB23E /* AppDelegate.swift */; };
+		18E4A95F2A028A7F005EB23E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A95E2A028A7F005EB23E /* SceneDelegate.swift */; };
+		18E4A9612A028A7F005EB23E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A9602A028A7F005EB23E /* ViewController.swift */; };
+		18E4A9642A028A7F005EB23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E4A9622A028A7F005EB23E /* Main.storyboard */; };
+		18E4A9662A028A81005EB23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E4A9652A028A81005EB23E /* Assets.xcassets */; };
+		18E4A9692A028A81005EB23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E4A9672A028A81005EB23E /* LaunchScreen.storyboard */; };
+		18E4A9742A028A81005EB23E /* MensaniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A9732A028A81005EB23E /* MensaniTests.swift */; };
+		18E4A97E2A028A81005EB23E /* MensaniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A97D2A028A81005EB23E /* MensaniUITests.swift */; };
+		18E4A9802A028A81005EB23E /* MensaniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4A97F2A028A81005EB23E /* MensaniUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E4A9702A028A81005EB23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E4A9512A028A7F005EB23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E4A9582A028A7F005EB23E;
+			remoteInfo = Mensani;
+		};
+		18E4A97A2A028A81005EB23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E4A9512A028A7F005EB23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E4A9582A028A7F005EB23E;
+			remoteInfo = Mensani;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E4A9592A028A7F005EB23E /* Mensani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mensani.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E4A95C2A028A7F005EB23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E4A95E2A028A7F005EB23E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E4A9602A028A7F005EB23E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E4A9632A028A7F005EB23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E4A9652A028A81005EB23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E4A9682A028A81005EB23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E4A96A2A028A81005EB23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E4A96F2A028A81005EB23E /* MensaniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MensaniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E4A9732A028A81005EB23E /* MensaniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaniTests.swift; sourceTree = "<group>"; };
+		18E4A9792A028A81005EB23E /* MensaniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MensaniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E4A97D2A028A81005EB23E /* MensaniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaniUITests.swift; sourceTree = "<group>"; };
+		18E4A97F2A028A81005EB23E /* MensaniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E4A9562A028A7F005EB23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E4A96C2A028A81005EB23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E4A9762A028A81005EB23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E4A9502A028A7F005EB23E = {
+			isa = PBXGroup;
+			children = (
+				18E4A95B2A028A7F005EB23E /* Mensani */,
+				18E4A9722A028A81005EB23E /* MensaniTests */,
+				18E4A97C2A028A81005EB23E /* MensaniUITests */,
+				18E4A95A2A028A7F005EB23E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E4A95A2A028A7F005EB23E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E4A9592A028A7F005EB23E /* Mensani.app */,
+				18E4A96F2A028A81005EB23E /* MensaniTests.xctest */,
+				18E4A9792A028A81005EB23E /* MensaniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E4A95B2A028A7F005EB23E /* Mensani */ = {
+			isa = PBXGroup;
+			children = (
+				18E4A95C2A028A7F005EB23E /* AppDelegate.swift */,
+				18E4A95E2A028A7F005EB23E /* SceneDelegate.swift */,
+				18E4A9602A028A7F005EB23E /* ViewController.swift */,
+				18E4A9622A028A7F005EB23E /* Main.storyboard */,
+				18E4A9652A028A81005EB23E /* Assets.xcassets */,
+				18E4A9672A028A81005EB23E /* LaunchScreen.storyboard */,
+				18E4A96A2A028A81005EB23E /* Info.plist */,
+			);
+			path = Mensani;
+			sourceTree = "<group>";
+		};
+		18E4A9722A028A81005EB23E /* MensaniTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E4A9732A028A81005EB23E /* MensaniTests.swift */,
+			);
+			path = MensaniTests;
+			sourceTree = "<group>";
+		};
+		18E4A97C2A028A81005EB23E /* MensaniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E4A97D2A028A81005EB23E /* MensaniUITests.swift */,
+				18E4A97F2A028A81005EB23E /* MensaniUITestsLaunchTests.swift */,
+			);
+			path = MensaniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E4A9582A028A7F005EB23E /* Mensani */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E4A9832A028A81005EB23E /* Build configuration list for PBXNativeTarget "Mensani" */;
+			buildPhases = (
+				18E4A9552A028A7F005EB23E /* Sources */,
+				18E4A9562A028A7F005EB23E /* Frameworks */,
+				18E4A9572A028A7F005EB23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mensani;
+			productName = Mensani;
+			productReference = 18E4A9592A028A7F005EB23E /* Mensani.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E4A96E2A028A81005EB23E /* MensaniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E4A9862A028A81005EB23E /* Build configuration list for PBXNativeTarget "MensaniTests" */;
+			buildPhases = (
+				18E4A96B2A028A81005EB23E /* Sources */,
+				18E4A96C2A028A81005EB23E /* Frameworks */,
+				18E4A96D2A028A81005EB23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E4A9712A028A81005EB23E /* PBXTargetDependency */,
+			);
+			name = MensaniTests;
+			productName = MensaniTests;
+			productReference = 18E4A96F2A028A81005EB23E /* MensaniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E4A9782A028A81005EB23E /* MensaniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E4A9892A028A81005EB23E /* Build configuration list for PBXNativeTarget "MensaniUITests" */;
+			buildPhases = (
+				18E4A9752A028A81005EB23E /* Sources */,
+				18E4A9762A028A81005EB23E /* Frameworks */,
+				18E4A9772A028A81005EB23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E4A97B2A028A81005EB23E /* PBXTargetDependency */,
+			);
+			name = MensaniUITests;
+			productName = MensaniUITests;
+			productReference = 18E4A9792A028A81005EB23E /* MensaniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E4A9512A028A7F005EB23E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					18E4A9582A028A7F005EB23E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					18E4A96E2A028A81005EB23E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 18E4A9582A028A7F005EB23E;
+					};
+					18E4A9782A028A81005EB23E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 18E4A9582A028A7F005EB23E;
+					};
+				};
+			};
+			buildConfigurationList = 18E4A9542A028A7F005EB23E /* Build configuration list for PBXProject "Mensani" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E4A9502A028A7F005EB23E;
+			productRefGroup = 18E4A95A2A028A7F005EB23E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E4A9582A028A7F005EB23E /* Mensani */,
+				18E4A96E2A028A81005EB23E /* MensaniTests */,
+				18E4A9782A028A81005EB23E /* MensaniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E4A9572A028A7F005EB23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4A9692A028A81005EB23E /* LaunchScreen.storyboard in Resources */,
+				18E4A9662A028A81005EB23E /* Assets.xcassets in Resources */,
+				18E4A9642A028A7F005EB23E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E4A96D2A028A81005EB23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E4A9772A028A81005EB23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E4A9552A028A7F005EB23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4A9612A028A7F005EB23E /* ViewController.swift in Sources */,
+				18E4A95D2A028A7F005EB23E /* AppDelegate.swift in Sources */,
+				18E4A95F2A028A7F005EB23E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E4A96B2A028A81005EB23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4A9742A028A81005EB23E /* MensaniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E4A9752A028A81005EB23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4A9802A028A81005EB23E /* MensaniUITestsLaunchTests.swift in Sources */,
+				18E4A97E2A028A81005EB23E /* MensaniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E4A9712A028A81005EB23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E4A9582A028A7F005EB23E /* Mensani */;
+			targetProxy = 18E4A9702A028A81005EB23E /* PBXContainerItemProxy */;
+		};
+		18E4A97B2A028A81005EB23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E4A9582A028A7F005EB23E /* Mensani */;
+			targetProxy = 18E4A97A2A028A81005EB23E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E4A9622A028A7F005EB23E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E4A9632A028A7F005EB23E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E4A9672A028A81005EB23E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E4A9682A028A81005EB23E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E4A9812A028A81005EB23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E4A9822A028A81005EB23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E4A9842A028A81005EB23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B5CAC638N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mensani/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sports.Mensani;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E4A9852A028A81005EB23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B5CAC638N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mensani/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sports.Mensani;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E4A9872A028A81005EB23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B5CAC638N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sports.MensaniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mensani.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mensani";
+			};
+			name = Debug;
+		};
+		18E4A9882A028A81005EB23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B5CAC638N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sports.MensaniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mensani.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mensani";
+			};
+			name = Release;
+		};
+		18E4A98A2A028A81005EB23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B5CAC638N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sports.MensaniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mensani;
+			};
+			name = Debug;
+		};
+		18E4A98B2A028A81005EB23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4B5CAC638N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sports.MensaniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mensani;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E4A9542A028A7F005EB23E /* Build configuration list for PBXProject "Mensani" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E4A9812A028A81005EB23E /* Debug */,
+				18E4A9822A028A81005EB23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E4A9832A028A81005EB23E /* Build configuration list for PBXNativeTarget "Mensani" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E4A9842A028A81005EB23E /* Debug */,
+				18E4A9852A028A81005EB23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E4A9862A028A81005EB23E /* Build configuration list for PBXNativeTarget "MensaniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E4A9872A028A81005EB23E /* Debug */,
+				18E4A9882A028A81005EB23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E4A9892A028A81005EB23E /* Build configuration list for PBXNativeTarget "MensaniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E4A98A2A028A81005EB23E /* Debug */,
+				18E4A98B2A028A81005EB23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E4A9512A028A7F005EB23E /* Project object */;
+}
